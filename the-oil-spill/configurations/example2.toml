@@ -1,0 +1,11 @@
+[settings]
+nSteps = 2500 # number of time steps
+tEnd = 1 # end time
+
+[geometry]
+meshName = "bay.msh"
+borders = [ [0.0, 0.45], [0.0, 0.2]] # define where fish are located
+
+[IO]
+logName = "example_log" # name of the log file created
+writeFrequency = 10 # Frequency of output video. If not provided, no video is recorded.
